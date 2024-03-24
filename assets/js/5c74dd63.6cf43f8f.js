@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremedios_documentacao=self.webpackChunkremedios_documentacao||[]).push([[4943],{5841:e=>{e.exports=JSON.parse('{"permalink":"/remedios-documentacao/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

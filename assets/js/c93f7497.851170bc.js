@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremedios_documentacao=self.webpackChunkremedios_documentacao||[]).push([[9665],{5283:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/remedios-documentacao/blog/tags/hello","allTagsPath":"/remedios-documentacao/blog/tags","count":2,"unlisted":false}')}}]);

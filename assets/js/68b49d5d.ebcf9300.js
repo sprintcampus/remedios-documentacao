@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremedios_documentacao=self.webpackChunkremedios_documentacao||[]).push([[8003],{5544:e=>{e.exports=JSON.parse('{"permalink":"/remedios-documentacao/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

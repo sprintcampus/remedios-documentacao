@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremedios_documentacao=self.webpackChunkremedios_documentacao||[]).push([[9525],{7556:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/remedios-documentacao/blog/tags/facebook","allTagsPath":"/remedios-documentacao/blog/tags","count":1,"unlisted":false}')}}]);

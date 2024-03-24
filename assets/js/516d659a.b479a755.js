@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremedios_documentacao=self.webpackChunkremedios_documentacao||[]).push([[458],{922:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/remedios-documentacao/blog/tags/docusaurus","allTagsPath":"/remedios-documentacao/blog/tags","count":4,"unlisted":false}')}}]);
