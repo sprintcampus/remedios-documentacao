@@ -1,11 +1,11 @@
-# GET /remedios
+# Listar - GET /remedios
 
 Este endpoint é usado para recuperar uma lista de todos os remedios cadastrados na api
 
 - Metodo: GET
 - Retorna: Uma lista de remedios
 
-Exemplo de formato do JSON:
+Exemplo de formato do JSON de resposta:
 
 ```JSON
 
