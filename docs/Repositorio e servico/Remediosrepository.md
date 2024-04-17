@@ -10,9 +10,9 @@ A interface inclui os seguintes métodos específicos, além dos padrões fornec
 
 ### findAllByAtivoTrue
 
-- **Assinatura: 'List<Remedio> findAllByAtivoTrue();'**
+- **Assinatura: 'List\<Remedio\> findAllByAtivoTrue();'**
 - **Descrição:** Retorna uma lista de todos os remédios que estão atualmente ativos no sistema.
-- **Retorno**: **'List<Remedio>'** - Uma lista contendo instâncias de **'Remedio'** onde o campo ativo é verdadeiro.
+- **Retorno**: **'List\<Remedio\>'** - Uma lista contendo instâncias de **'Remedio'** onde o campo ativo é verdadeiro.
 
 ## Uso
 
@@ -24,23 +24,20 @@ Esta interface é usada para interagir com a base de dados de remédios, permiti
 
 ## Exemplo de Uso
 
-``` Java
-
+```Java
 @Autowired
 private RemediosRepository remediosRepository;
 
 public List<Remedio> listarRemediosAtivos() {
     return remediosRepository.findAllByAtivoTrue();
 }
-
-
 ```
 
 ## Configuração e Integração
 
 - **JpaRepository**: Por ser uma extensão do **'JpaRepository'**, **'RemediosRepository'** automaticamente herda métodos como **'save()'**,**'findById()'**, **'findAll()'**, **'deleteById()'**, entre outros.
 - **Spring Data JPA**: A integração com Spring Data JPA facilita a implementação dos métodos de repositório sem a necessidade de escrever qualquer SQL ou código de implementação, utilizando apenas declarações de método abstrato.
- 
+
 ## Considerações de Design
 
 - A interface deve ser utilizada apenas nos serviços que manipulam dados de **'Remedio'**, seguindo os princípios de responsabilidade única.
@@ -49,4 +46,3 @@ public List<Remedio> listarRemediosAtivos() {
 ## Segurança
 
 - A segurança no acesso aos dados pode ser controlada através de configurações no Spring Security, assegurando que operações sensíveis sejam protegidas por autenticação e autorização adequadas.
-
