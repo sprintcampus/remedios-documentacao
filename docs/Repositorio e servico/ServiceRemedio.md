@@ -22,32 +22,32 @@ A classe **'ServicesRemedio'** oferece os seguintes métodos para manipulação 
 ### listar
 
 - **Descrição**: Lista todos os remédios ativos no sistema.
-- **Retorno**: **'ResponseEntity<List<DadosListagemRemedios>>'** com uma lista dos remédios ativos.
+- **Retorno**: **'ResponseEntity\<List\<DadosListagemRemedios\>\>'** com uma lista dos remédios ativos.
 - **Transformação**: Converte entidades **'Remedio'** em **'DadosListagemRemedios'** usando a função **'map'**.
 
 ### atualizar
 
 - **Descrição**: Atualiza as informações de um remédio existente.
 - **Parâmetros**: **'DadosAtualizarRemedio dados'** - DTO com os dados para atualização.
-- **Retorno**: **'ResponseEntity<DadosDetalhamentoRemedio>'** com os detalhes atualizados do remédio.
+- **Retorno**: **'ResponseEntity\<DadosDetalhamentoRemedio\>'** com os detalhes atualizados do remédio.
 
 ### reativar
 
 - **Descrição**: Reativa um remédio que foi previamente inativado.
 - **Parâmetros: 'Long id** - ID do remédio a ser reativado.
-- **Retorno: 'ResponseEntity<Void>'** indicando o resultado da operação.
+- **Retorno: 'ResponseEntity\<Void\>'** indicando o resultado da operação.
 
 ### excluir
 
 - **Descrição**: Remove um remédio do sistema.
 - **Parâmetros: 'Long id'** - ID do remédio a ser excluído.
-- **Retorno: 'ResponseEntity<Void>'** indicando o resultado da operação.
+- **Retorno: 'ResponseEntity\<Void\>'** indicando o resultado da operação.
 
 ### inativar
 
 - **Descrição**: Inativa um remédio sem removê-lo do sistema.
 - **Parâmetros**: **'Long id'** - ID do remédio a ser inativado.
-- **Retorno: 'ResponseEntity<Void>'** indicando o resultado da operação.
+- **Retorno: 'ResponseEntity\<Void\>'** indicando o resultado da operação.
 
 ## Segurança e Transações
 
