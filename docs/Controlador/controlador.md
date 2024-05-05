@@ -34,21 +34,21 @@
 
 #### 4. Reativar Remédio
 
-- **Endpoint**: **'PUT /remedios/{id}'**
+- **Endpoint**: **'PUT /remedios/\{id\}'**
 - **Descrição**: Reativa um remédio que estava previamente inativo.
 - **Parâmetros de URL**: **'id'** - Identificador do remédio.
 - **Resposta**: ResponseEntity sem conteúdo, apenas status HTTP.
 
 #### 5. Excluir Remédio
 
-- **Endpoint**: **'DELETE /remedios/{id}'**
+- **Endpoint**: **'DELETE /remedios/\{id\}'**
 - **Descrição**: Exclui permanentemente um remédio do sistema.
-- **Parâmetros de URL**: **'id'** - Identificador do remédio.
+    - **Parâmetros de URL**: **'id'** - Identificador do remédio.
 - **Resposta**: ResponseEntity sem conteúdo, indicando a conclusão.
 
 #### 6. Inativar Remédio
 
-- **Endpoint**: **'DELETE /remedios/inativar/{id}'**
+- **Endpoint**: **'DELETE /remedios/inativar/\{id\}'**
 - **Descrição**: Inativa um remédio sem removê-lo da base de dados, marcando-o como inativo.
 - **Parâmetros de URL**: **'id'** - Identificador do remédio.
 - **Resposta**: ResponseEntity sem conteúdo.
