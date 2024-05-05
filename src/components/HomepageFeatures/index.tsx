@@ -11,11 +11,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Um projeto colaborativo',
+    title: 'Um sistema feito pelos alunos!',
     Svg: require('@site/static/img/logo03.svg').default,
     description: (
       <>
-        Um projeto feito 100% pelos alunos da disciplina de Engenharia de software.
+        Um CRUD feito 100% pelos alunos da disciplina de Engenharia de software.
       </>
     ),
   },

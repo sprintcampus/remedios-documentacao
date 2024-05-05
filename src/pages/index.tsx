@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg processo-button"
             to="/docs/intro">
-            Conheça o processo!
+            Conheça o sistema!
           </Link>
         </div>
       </div>

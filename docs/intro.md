@@ -7,3 +7,5 @@ sidebar_position: 1
 Um sistema focado no gerenciamento de remedios!
 
 Um CRUD baseado no gerenciamento de remedios.
+
+[Conheça o sistema!](https://github.com/sprintcampus/remedios-back)
